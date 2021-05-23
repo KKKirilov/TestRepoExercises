@@ -1,0 +1,1 @@
+git clone *repo_url* - makes a copy of a repository on your local machine
