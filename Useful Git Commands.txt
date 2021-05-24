@@ -1,6 +1,6 @@
-git clone *repo_url* - makes a copy of a repository on your local machine
+git clone [repo_url] - makes a copy of a repository on your local machine
 
-git pull origin master - 
+git push origin [branch name] - Push a branch to your remote repository
 
 git add [file-name] - Add a file to the staging area
 
