@@ -1,3 +1,17 @@
 git clone *repo_url* - makes a copy of a repository on your local machine
 
+git pull origin master - 
+
+git add [file-name] - Add a file to the staging area
+
+git add -A - Add all new and changed files to the staging area
+
+git status - Displays the state of the working directory and the staging area
+
+git commit -m "[commit message]" - A short description of the changes
+
+git push - Uploads local repository content to a remote repository
+
+
 git branch [branch name] - Create a new branch
+
