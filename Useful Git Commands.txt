@@ -12,6 +12,11 @@ git commit -m "[commit message]" - A short description of the changes
 
 git push - Uploads local repository content to a remote repository
 
+------------------------------------------------------------------------------------
+
+gitk --all - Graphical repository browser
+
+------------------------------------------------------------------------------------
 
 git branch [branch name] - Create a new branch
 
@@ -23,4 +28,22 @@ git branch -D [branch name] - Delete a branch forcefully
 
 git merge [branch name] - Merge a branch into the active branch
 
+------------------------------------------------------------------------------------
+
+git fetch origin - Retrieve the latest meta-data info from the original
+
+git rebase origin/master - Rebases current branch onto origin/master
+
+------------------------------------------------------------------------------------
+
+git tag -a [tag name] -m "[commit message]" - Creating an annotated tag with an optional commit
+
+git push origin [tag name] - By default, git push will not push tags. Tags have to be explicitly passed to git push
+
+git tag - Gives a list of all the tags
+
+
+------------------------------------------------------------------------------------
+
+git squash - Combines multiple commits into one
 
