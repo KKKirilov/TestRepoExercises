@@ -45,5 +45,6 @@ git tag - Gives a list of all the tags
 
 ------------------------------------------------------------------------------------
 
-git squash - Combines multiple commits into one
+git rebase -i HEAD~3 - Interactive rebase session (used for squash of comments)
+
 
